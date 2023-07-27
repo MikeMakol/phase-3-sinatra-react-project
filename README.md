@@ -1,138 +1,57 @@
-# Phase 3 Project Guidelines
+FinFriend is application that allow users to create an account and securely store their credit card information on the website. To ensure the security of the user's credit card information, the application would use encryption and other security measures to protect the data from unauthorized access. The application would also comply with industry-standard security protocols to ensure that all tranctions are secure and protected from fraud.
 
-## Learning Goals
+  1. INTRODUCTION
+  The application would allow users to create an account and securely store their credit card information on the website. When a user wants to make an online payment, they would simply log in to their account, select the credit card they want to use for the transaction, and then securely process the payment using the selected card. The application could also provide additional security features such as two-factor authentication or biometric authentication to further enhance the security of online transactions.
 
-- Build a web basic API with Sinatra and Active Record to support a React
-  frontend
+  In addition to allowing users to securely store and use their credit card information for online payments, the application could also offer features such as transaction tracking, budget tracking, and payment reminders. This would help users to manage their finances more efficiently and make better financial decisions.
 
-## Introduction
+  Overall, an application that allows users to securely store their credit card information on the website for online payments can be a very useful tool for individuals and businesses looking for a secure and convenient way to manage their finances and make payments.
 
-Congrats on getting through all the material for Phase 3! Now's the time to put
-it all together and build something from scratch to reinforce what you know and
-expand your horizons.
+  2. PROJECT PROBLEM SOLUTION
+    *Online payment using credit cards can be a convenient way to make purchases, but it can also come with some challenges. Here are some common problems associated with online payment using credit cards and potential solutions:
 
-The focus of this project is **building a Sinatra API backend** that uses
-**Active Record** to access and persist data in a database, which will be used
-by a separate **React frontend** that interacts with the database via the API.
+    I. Security issues: Online payment using credit cards can be vulnerable to security breaches, such as hackers stealing credit card information. To address this issue, users can use payment gateways that offer additional security measures such as two-factor authentication, encryption, and fraud detection algorithms. It's also important to keep credit card information secure by using strong passwords and avoiding public Wi-Fi networks when making payments.
+    II. Fraudulent transactions: Credit card fraud is a common problem with online payments, where criminals use stolen credit card information to make unauthorized purchases. To prevent fraudulent transactions, credit card companies and payment gateways use fraud detection algorithms to flag suspicious activity. Users can also monitor their credit card statements regularly to identify any unauthorized transactions and report them to their credit card company immediately.
+    III. Payment processing delays: Sometimes, online payments can be delayed due to technical issues or processing errors. To avoid payment processing delays, users can ensure that they have sufficient funds in their account and that their credit card information is up-to-date. Users can also choose payment gateways that offer fast and reliable payment processing services.
+    IV. Payment disputes: Sometimes, users may dispute a payment due to issues such as incorrect charges or unsatisfactory goods or services. In such cases, users can contact the merchant to resolve the issue, or dispute the payment with their credit card company. Credit card companies typically offer dispute resolution services to help users resolve payment disputes quickly and efficiently.
+    V. Compliance issues: The website may need to comply with various regulations and standards related to the storage and processing of credit card information, such as the Payment Card Industry Data Security Standard (PCI DSS). To ensure compliance, the website can work with reputable payment gateways and payment processors that comply with relevant regulations and standards.
 
-## Requirements
+  3. HOW TO USE THIS APPLICATION
+    I. User registration and login: Allow users to create an account and log in to the application. This will enable users to securely store their payment information, view their transaction history, and manage their preferences.
 
-For this project, you must:
+    II. Add, edit and delete your credit card details
 
-- Use Active Record to interact with a database.
-- Have at least two models with a one-to-many relationship.
-- At a minimum, set up the following API routes in Sinatra:
-  - create and read actions for both models
-  - full CRUD capability for one of the models: 
-  The update action should be implemented using a form that is 
-  pre-filled with existing values for the object. On submission of 
-  the form, the object should update. Note: Using a like button or 
-  similar will not meet the update requirement.
-- Build a separate React frontend application that interacts with the API to
-  perform CRUD actions.
-- Implement proper front end state management. You should be updating state using a
-  setState function after receiving your response from a POST, PATCH, or DELETE 
-  request. You should NOT be relying on a GET request to update state. 
-- Use good OO design patterns. You should have separate classes for each of your
-  models, and create instance and class methods as necessary. 
-- Routes in your application (both client side and back end) should follow RESTful
-  conventions.
-- Use your back end optimally. Pass JSON for related associations to the front 
-  end from the back end. You should use active record methods in your controller to grab
-  the needed data from your database and provide as JSON to the front end. You
-  should NOT be relying on filtering front end state or a separate fetch request to
-  retrieve related data.
+    III. Secure payment processing: Provide a secure payment processing system that allows users to make payments online using their credit card or bank account. The payment system should be compliant with industry-standard security protocols and offer fraud detection and prevention measures.
 
-For example, build a todo list application with a React frontend interface and a
-Sinatra backend API, where a user can:
+    IV. Payment tracking and reporting: Allow users to track their payment history and view their transaction reports, including the payment amount, date, and recipient. This will help users keep track of their finances and ensure that their payments are processed correctly.
 
-- **Create** a new todo
-- **Read** a list of all todos
-- **Update** an individual todo
-- **Delete** a todo
+    V. Payment reminders: Send payment reminders to users to help them stay on top of their payments and avoid late fees or other penalties.
 
-A `Todo` can be tagged with a `Category`, so that each todo _belongs to_ a
-category and each category _has many_ todos.
+    VI. Customer support: Provide customer support to users who have questions or concerns about their payments. This can include a help center with frequently asked questions, live chat support, or email support.
 
-## Getting Started
+  4. TECHNOLOGIES USED:
+    I. HTML
+    II. CSS
+    III. JAVASCRIFT
+    IV. REACT
+    V. BOOTSTRAP
+    VI. FONTAWESOME
+    VII. RUBY-opp, active records and sinatra
 
-### Backend Setup
+  5. PROJECT LINKS:
+    .Project Author: Mike Makol
+    .Author Link: mikemakol45@gmail.com
+    .Frontend GitHub Link: https://github.com/MikeMakol/AutoFix
+    .Backend GitHub Link: https://github.com/MikeMakol/AutoFix
+    .Project url: https://autofix-app.netlify.app
 
-This repository has all the starter code needed to get a Sinatra backend up and
-running. [**Fork and clone**][fork link] this repository to get started. Then, run
-`bundle install` to install the gems.
+  6. HOW TO CONTRIBUTE TO THIS PROJECT
+    Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-**Important**: Be sure you fork a copy of the repo into your GitHub account
-before cloning it. You can do this by using the link above or by clicking the
-"Octocat" button at the top of this page, then clicking "Fork" in the upper
-right corner of the repo page.
+    If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
 
-[fork link]: https://github.com/learn-co-curriculum/phase-3-sinatra-react-project/fork
-
-The `app/controllers/application_controller.rb` file has an example GET route
-handler. Replace this route with routes for your project.
-
-You can start your server with:
-
-```console
-$ bundle exec rake server
-```
-
-This will run your server on port
-[http://localhost:9292](http://localhost:9292).
-
-### Frontend Setup
-
-Your backend and your frontend should be in **two different repositories**.
-
-Create a new repository in a **separate folder** with a React app for your
-frontend. To do this, `cd` out of the backend project directory, and use
-[create-react-app][] to generate the necessary code for your React frontend:
-
-```console
-$ npx create-react-app my-app-frontend
-```
-
-After creating the project locally, you should also
-[create a repository on GitHub][create repo] to host your repo and help
-collaborate, if you're working with a partner.
-
-### Fetch Example
-
-Your React app should make fetch requests to your Sinatra backend! Here's an
-example:
-
-```js
-fetch("http://localhost:9292/test")
-  .then((r) => r.json())
-  .then((data) => console.log(data));
-```
-
-## Project Tips
-
-- This project is intended to focus more on the backend than the frontend, so
-  try and keep the React side of things relatively simple. Focus on working with
-  Active Record and performing CRUD actions. What are some interesting queries you can write? What kinds of questions can you ask of your data?
-- Once you have a project idea, come up with a domain model and decide what
-  relationships exist between the models in your application. Use a tool like
-  [dbdiagram.io][] to help visualize your models.
-- Decide on your API endpoints. What data should they return? What kind of CRUD
-  action should they perform? What data do they need from the client?
-- Use [Postman][postman download] to test your endpoints.
-- Use `binding.pry` to debug your requests on the server. It's very helpful to use a
-  `binding.pry` in your controller within a route to see what `params` are being
-  sent.
-- Use the [Network Tab in the Dev Tools][network tab] in the frontend to debug
-  your requests.
-
-## Resources
-
-- [create-react-app][]
-- [dbdiagram.io][]
-- [Postman][postman download]
-
-[create-react-app]: https://create-react-app.dev/docs/getting-started
-[create repo]: https://docs.github.com/en/get-started/quickstart/create-a-repo
-[dbdiagram.io]: https://dbdiagram.io/
-[postman download]: https://www.postman.com/downloads/
-[network tab]: https://developer.chrome.com/docs/devtools/network/
+    * Fork the Project
+    * Create your Feature Branch (git checkout -b finfriend-backend-project)
+    * Commit your Changes (git commit -m 'Add some FinFriend features')
+    * Push to the Branch (git push origin finfriend-backend-project)
+    * Open a Pull Request
