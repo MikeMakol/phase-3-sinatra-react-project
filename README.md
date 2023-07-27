@@ -39,11 +39,11 @@ FinFriend is application that allow users to create an account and securely stor
     VII. RUBY-opp, active records and sinatra
 
   5. PROJECT LINKS:
-    .Project Author: Mike Makol
-    .Author Link: mikemakol45@gmail.com
-    .Frontend GitHub Link: https://github.com/MikeMakol/AutoFix
-    .Backend GitHub Link: https://github.com/MikeMakol/AutoFix
-    .Project url: https://autofix-app.netlify.app
+    * Project Author: Mike Makol
+    * Author Link: mikemakol45@gmail.com
+    * Frontend GitHub Link: https://github.com/MikeMakol/finfriend-frontend-web-design
+    * Backend GitHub Link: https://github.com/MikeMakol/AutoFix
+    * Project url: https://autofix-app.netlify.app
 
   6. HOW TO CONTRIBUTE TO THIS PROJECT
     Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
