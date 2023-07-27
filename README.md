@@ -42,8 +42,8 @@ FinFriend is application that allow users to create an account and securely stor
     * Project Author: Mike Makol
     * Author Link: mikemakol45@gmail.com
     * Frontend GitHub Link: https://github.com/MikeMakol/finfriend-frontend-web-design
-    * Backend GitHub Link: https://github.com/MikeMakol/AutoFix
-    * Project url: https://autofix-app.netlify.app
+    * Backend GitHub Link: https://github.com/MikeMakol/phase-3-sinatra-react-project
+    * Project url: https://prismatic-choux-053c55.netlify.app/add-card
 
   6. HOW TO CONTRIBUTE TO THIS PROJECT
     Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
