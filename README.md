@@ -20,15 +20,10 @@ Online payment using credit cards can be a convenient way to make purchases, but
 
 3. HOW TO USE THIS APPLICATION
 * User registration and login: Allow users to create an account and log in to the application. This will enable users to securely store their payment information, view their transaction history, and manage their preferences.
-
 * Add, edit and delete your credit card details
-
 * Secure payment processing: Provide a secure payment processing system that allows users to make payments online using their credit card or bank account. The payment system should be compliant with industry-standard security protocols and offer fraud detection and prevention measures.
-
 * Payment tracking and reporting: Allow users to track their payment history and view their transaction reports, including the payment amount, date, and recipient. This will help users keep track of their finances and ensure that their payments are processed correctly.
-
 * Payment reminders: Send payment reminders to users to help them stay on top of their payments and avoid late fees or other penalties.
-
 * Customer support: Provide customer support to users who have questions or concerns about their payments. This can include a help center with frequently asked questions, live chat support, or email support.
 
 4. TECHNOLOGIES USED:
@@ -45,15 +40,17 @@ Online payment using credit cards can be a convenient way to make purchases, but
 * Author Link: mikemakol45@gmail.com
 * Frontend GitHub Link: https://github.com/MikeMakol/finfriend-frontend-web-design
 * Backend GitHub Link: https://github.com/MikeMakol/phase-3-sinatra-react-project
-* Project url: https://prismatic-choux-053c55.netlify.app/add-card
+* Project url: https://prismatic-choux-053c55.netlify.app
 
 6. HOW TO CONTRIBUTE TO THIS PROJECT
-  Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-  If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
 
   * Fork the Project
   * Create your Feature Branch (git checkout -b finfriend-backend-project)
   * Commit your Changes (git commit -m 'Add some FinFriend features')
   * Push to the Branch (git push origin finfriend-backend-project)
   * Open a Pull Request
+
+  
