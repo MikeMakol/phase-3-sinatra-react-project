@@ -4,7 +4,54 @@ class ApplicationController < Sinatra::Base
   
   # Add your routes here
   get "/" do
-    { message: "Good luck with your project!" }.to_json
+    { message: "Welcome to FinFriend!" }.to_json
+  end
+
+  # get all users
+  get "/users" do
+    # get all the users from the database
+    users = User.all.order(id: :desc)
+
+    # return a JSON response with an array of all the users data
+    users.to_json(include: :cards)
+  end
+
+  # get one user
+  get "/users/:id" do
+    user = User.find_by(id: params[:id])
+
+    # send a JSON-formatted response of the user data if user is found
+    if user
+      user.to_json(include: :cards)
+    else
+      { message: 'User not found'}.to_json
+    end
+  end
+
+  # create user
+  post "/users" do
+    user = User.create(params)
+
+    # send a JSON-formatted response of the user if user is created
+    if user
+      { user: user, message: 'User created successfully!' }.to_json
+    else
+      { message: 'Unable to create user' }.to_json
+    end
+  end
+
+  # delete user
+  delete '/users/:id' do
+    # find user using the ID
+    user = User.find(params[:id])
+    # delete user
+    user.destroy
+    # send a response with the deleted user as JSON
+    if user
+      { user: user, message: 'User deleted successfully!' }.to_json
+    else
+      { message: 'Unable to delete user' }.to_json
+    end
   end
 
   # get all cards
