@@ -55,5 +55,5 @@ If you have a suggestion that would make this better, please fork the repo and c
   * Open a Pull Request
 
 **7. LICENSE**
-* Distributed under the AutoFix License. See LICENSE.md for more information
+* Distributed under the FinFriend License. See LICENSE.md for more information
   
