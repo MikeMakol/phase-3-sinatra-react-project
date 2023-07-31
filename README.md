@@ -26,23 +26,28 @@ Online payment using credit cards can be a convenient way to make purchases, but
 * Payment reminders: Send payment reminders to users to help them stay on top of their payments and avoid late fees or other penalties.
 * Customer support: Provide customer support to users who have questions or concerns about their payments. This can include a help center with frequently asked questions, live chat support, or email support.
 
-**4. TECHNOLOGIES USED:**
+**4. CHALLENGES FACED**
+* **Problem faced:** The main problem that was encountered, was the connection of the frontend site with the backend site although the backend CRUD(Create, Read, Update and Delete) worked perfectly when tested with Postman.
+* **Problem solution:** Keep trying more, to see if frontend and backend sites could both connect efficiently.
+
+**5. TECHNOLOGIES USED:**
 * HTML
 * CSS
 * JAVASCRIFT
 * REACT
 * BOOTSTRAP
+* SCSS
 * FONTAWESOME
 * RUBY-opp, active records and sinatra
 
-**5. PROJECT LINKS:**
+**6. PROJECT LINKS:**
 * Project Author: Mike Makol
 * Author Link: mikemakol45@gmail.com
 * Frontend GitHub Link: https://github.com/MikeMakol/finfriend-frontend-web-design
 * Backend GitHub Link: https://github.com/MikeMakol/phase-3-sinatra-react-project
 * Project url: https://prismatic-choux-053c55.netlify.app
 
-**6. HOW TO CONTRIBUTE TO THIS PROJECT**
+**7. HOW TO CONTRIBUTE TO THIS PROJECT**
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
@@ -54,6 +59,6 @@ If you have a suggestion that would make this better, please fork the repo and c
   * Push to the Branch (git push origin finfriend-backend-project)
   * Open a Pull Request
 
-**7. LICENSE**
-* Distributed under the FinFriend License. See LICENSE.md for more information
+**8. LICENSE**
+* Distributed under the FinFriend License. See **LICENSE.md** for more information
   
