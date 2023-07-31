@@ -1,4 +1,4 @@
-FinFriend is application that allow users to create an account and securely store their credit card information on the website. To ensure the security of the user's credit card information, the application would use encryption and other security measures to protect the data from unauthorized access. The application would also comply with industry-standard security protocols to ensure that all tranctions are secure and protected from fraud.
+**FinFriend** is application that allow users to create an account and securely store their credit card information on the website. To ensure the security of the user's credit card information, the application would use encryption and other security measures to protect the data from unauthorized access. The application would also comply with industry-standard security protocols to ensure that all tranctions are secure and protected from fraud.
 
 **1. INTRODUCTION**
 
@@ -38,10 +38,10 @@ Online payment using credit cards can be a convenient way to make purchases, but
 * BOOTSTRAP
 * SCSS
 * FONTAWESOME
-* RUBY-opp, active records and sinatra
+* RUBY-OOP, active records and sinatra
 
 **6. PROJECT LINKS:**
-* Project Author: Mike Makol
+* Project Author: **Mike Makol**
 * Author Link: mikemakol45@gmail.com
 * Frontend GitHub Link: https://github.com/MikeMakol/finfriend-frontend-web-design
 * Backend GitHub Link: https://github.com/MikeMakol/phase-3-sinatra-react-project
